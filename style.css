@@ -97,7 +97,12 @@ li p{
     text-align: start;
     height: auto;
 }
-
+@media (max-width:495px) {
+    input[type="text"]{
+        min-width: 300px;
+        padding: 4px 8px;
+    }
+}
 
 @media (max-width:384px) {
     input[type="text"]{
